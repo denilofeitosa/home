@@ -22,6 +22,18 @@
     </style>
 </head>
 <body>
-    <h1>Site em construção</h1>
+    <h1>🚧 Em construção 🏗</h1>
+    <button id='btn'></button>
+    Clicou <span id='disp'>0</span> vez(es)!
+    script>
+    let count = 0
+    let btn = document.getElementById('btn')
+    let disp = document.getElementById('disp')
+    
+    btn.onclick = function () {
+        count ++
+        disp.innerHTML = count
+    }
+    </script>
 </body>
 </html>
