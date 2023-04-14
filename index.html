@@ -11,9 +11,6 @@
             padding: 0;
             box-sizing: border-box;
         }
-        html {
-            display: flex;
-        }
         
         body {
             height: 100vh;
@@ -23,12 +20,19 @@
             background-color: #708090;
             color: #f5f5f5;
         }
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
-    <h1>🚧 em construção 🏗</h1>
-    <button id='btn'>clique aqui</button>
-    clicou <span id='disp'>0</span> vez(es)!
+    <div class='wrapper'>
+        <h1>🚧 em construção 🏗</h1>
+        <button id='btn'>clique aqui</button>
+        clicou <span id='disp'>0</span> vez(es)!
+    </div>
     
     <script>
     let count = 0
